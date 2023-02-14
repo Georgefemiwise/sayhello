@@ -1,7 +1,8 @@
 :root {
-  --all-primary-col: rgb(16, 17, 16);
-  --all-secondary-col: blue;
-  --gradient: to top, var(--all-primary-col), var(--all-secondary-col);
+  --Purple: #c55ffc;
+  --Purple-Haze: #efdcf9;
+  --Charcoal: #323e42;
+  --Violet: #7954a1;
 }
 
 * {
@@ -30,7 +31,7 @@ h6 {
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: var(--Purple-Haze);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -63,7 +64,7 @@ header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #0055ff;
+  background-color: var(--Violet);
   padding: 10px 0;
   width: 100%;
   -ms-flex-pack: distribute;
