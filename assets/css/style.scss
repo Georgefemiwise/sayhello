@@ -59,7 +59,7 @@ header {
 
 	nav {
 		display: flex;
-		background-color:var(--Violet);
+		background-color: var(--Violet);
 		padding: 10px 0;
 		width: 100%;
 		justify-content: space-around;
@@ -129,26 +129,29 @@ header {
 	display: grid;
 	padding: 0 2em;
 	width: 100%;
-}
 
-.hero-caption {
-	display: block;
-
-	h4 {
-		color: #1c03ff;
-		font-size: 16px;
-		font-weight: bold;
+	.hero-image {
+		width: 35em;
 	}
-	h1 {
-		font-size: 2em;
-		margin: 0.5em 0;
-		font-weight: bolder;
-	}
+	.hero-caption {
+		display: block;
 
-	p {
-		color: #303030;
-		font-size: 17px;
-		margin-bottom: 1em;
+		h4 {
+			color: var(--Purple);
+			font-size: 16px;
+			font-weight: bold;
+		}
+		h1 {
+			font-size: 2em;
+			margin: 0.5em 0;
+			font-weight: bolder;
+		}
+
+		p {
+			color: #303030;
+			font-size: 17px;
+			margin-bottom: 1em;
+		}
 	}
 }
 
@@ -159,13 +162,24 @@ header {
 .row {
 	flex-direction: row;
 	display: flex;
+	justify-content: center;
+	gap: 5px;
 
 	.col {
-		display: grid;
+		border: solid 1px;
+		display: block;
 
-		gap: 2rem;
 		justify-content: center;
 		align-items: center;
+
+		.wrapper {
+			margin-top: 3em;
+		}
+
+		h2,
+		p {
+			margin: 9px;
+		}
 	}
 }
 

@@ -145,23 +145,27 @@ header nav ul li .link {
   width: 100%;
 }
 
-.hero-caption {
+.inner-container .hero-image {
+  width: 35em;
+}
+
+.inner-container .hero-caption {
   display: block;
 }
 
-.hero-caption h4 {
-  color: #1c03ff;
+.inner-container .hero-caption h4 {
+  color: var(--Purple);
   font-size: 16px;
   font-weight: bold;
 }
 
-.hero-caption h1 {
+.inner-container .hero-caption h1 {
   font-size: 2em;
   margin: 0.5em 0;
   font-weight: bolder;
 }
 
-.hero-caption p {
+.inner-container .hero-caption p {
   color: #303030;
   font-size: 17px;
   margin-bottom: 1em;
@@ -179,18 +183,30 @@ header nav ul li .link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5px;
 }
 
 .row .col {
-  display: -ms-grid;
-  display: grid;
-  gap: 2rem;
+  border: solid 1px;
+  display: block;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.row .col .wrapper {
+  margin-top: 3em;
+}
+
+.row .col h2,
+.row .col p {
+  margin: 9px;
 }
 
 .card {
