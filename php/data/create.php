@@ -16,9 +16,13 @@ $program = 'computer science';
 
 for ($index = 1; $index <= 200; $index++ ){
     
+    //leading zeros
     $re_index = sprintf('%03d',$index);
-    $sql = "INSERT INTO student (email_address, school, program, year_enrolled) 
-    VALUES ('bcict21$re_index@ttu.edu.gh','$school','$program','$year_enrolled')";
+    
+    //sql insert into database
+    $sql = "INSERT INTO student (email_address, school, program, year_enrolled)
+            VALUES ('bcict21$re_index@ttu.edu.gh','$school','$program','$year_enrolled')";
+    
     $result = mysqli_query($conn, $sql);
     
     if(!$result){
@@ -32,19 +36,4 @@ for ($index = 1; $index <= 200; $index++ ){
 
 
 mysqli_close($conn);
-
-
-
-
-
-
-
-
-
-
-
-
-
-// $addres =[];
-// for ($i=1; $i <= 100; $i++){ // array_push($addres,$i); // } // foreach($addres as $fruits){ // echo sprintf('%03d',
-	// $fruits) . "<br>" ; // } ?>
+ ?>

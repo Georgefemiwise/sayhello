@@ -16,8 +16,10 @@ a {
 	text-decoration: none;
 }
 
-ul > li {
-	list-style: none;
+ul {
+	li {
+		list-style: none;
+	}
 }
 
 h1,
@@ -36,20 +38,11 @@ body {
 	background-position: center;
 	position: relative;
 	min-height: 100vh;
-	animation: run linear infinite 10s;
+
 }
 
-/* @keyframes run{
-	0%{
-		background-color: rgb(255, 0, 0);
-	}
-	50%{
-		background-color: rgb(0, 255, 242);
-	}
-	100%{
-		background-color: rgb(238, 130, 130);
-	}
-} */
+
+
 img {
 	width: 100%;
 }
@@ -135,7 +128,7 @@ header {
 	}
 	.hero-caption {
 		display: block;
-
+&
 		h4 {
 			color: var(--Purple);
 			font-size: 16px;
@@ -168,7 +161,6 @@ header {
 	.col {
 		border: solid 1px;
 		display: block;
-
 		justify-content: center;
 		align-items: center;
 

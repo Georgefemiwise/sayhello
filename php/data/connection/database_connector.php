@@ -10,10 +10,7 @@ $database = 'sayhello_schema';
          
 // Check connection
  if($conn === false){
-		
-die("ERROR: Could not connect. <br>". mysqli_connect_error());
+	die("ERROR: Could not connect. <br>". mysqli_connect_error());
         }
-	//    else{
-	// 	echo 'connected';
-	//    }
+	
 ?>
