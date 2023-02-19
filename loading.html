@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+	</head>
+
+	<body>
+		<div class="load_container">
+			Loading...
+		</div>
+
+		<style>
+			body {
+				height: 95vh;
+				display: grid;
+				place-content: center;
+				background-color: rgba(9, 5, 255, 0.644);
+
+			}
+
+			.load_container {
+				display: grid;
+				place-content: center;
+				width: 100px;
+				height: 100px;
+				border-radius: 50%;
+				color: #fff;
+				transition: all 5s;
+				animation: loader linear infinite 3s;
+			}
+
+			.load {}
+
+			@keyframes loader {
+				0% {
+					border-top: solid rgb(255, 1, 1);
+				}
+
+				10% {
+					border-right: solid rgb(255, 242, 1);
+				}
+
+				20% {
+					border-bottom: solid rgb(0, 255, 42);
+				}
+
+				30% {
+					border-left: solid rgb(0, 247, 255);
+				}
+
+				40% {
+					border-top: solid rgb(34, 0, 255);
+				}
+
+				50% {
+					border-right: solid rgb(217, 0, 255);
+				}
+
+				60% {
+					border-bottom: solid rgb(255, 145, 0);
+				}
+
+				70% {
+					border-left: solid rgb(57, 103, 177);
+				}
+
+				80% {
+					border-top: solid rgb(217, 0, 255);
+				}
+
+				90% {
+					border-right: solid rgb(34, 255, 0);
+				}
+			}
+
+
+
+			/* .load {
+				width: 5px;
+				height: 5px;
+				background: #000;
+			} */
+
+		</style>
+	</body>
+
+</html>
