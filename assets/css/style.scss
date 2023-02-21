@@ -199,3 +199,43 @@ header {
 		grid-template-columns: repeat(3, 1fr);
 	}
 }
+
+// loader
+.loading {
+				position: relative;
+				display: grid;
+				place-content: center;
+				height: 30px;
+				color: rgb(244, 243, 248);
+				font-size: larger;
+			}
+
+			.loading::after {
+				position: absolute;
+				content: '';
+				width: 15px;
+				height: 4px;
+				background-color: rgb(246, 0, 0);
+				bottom: 0;
+				animation: loader linear infinite 2s;
+			}
+
+			@keyframes loader {
+				0% {
+					background-color: #ff0000;
+				}
+
+				30% {
+					background-color: #00f80c;
+				}
+
+				60% {
+					transform: translateX(50px);
+					background-color: rgb(255, 0, 217);
+				}
+
+				100% {
+					background-color: #f3e40d;
+				}
+
+			}
