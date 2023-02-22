@@ -39,3 +39,22 @@ Emailify
 Syntactify
 Emailomize
 Remember, it's important to choose a name that accurately reflects your project and its key features. Choose a name that is memorable, easy to pronounce, and easy to spell.
+
+
+Sure, here's an example of a color scheme for an email generating website:
+
+Primary color:
+
+Dark blue (#003366) - can convey trust, professionalism, and stability.
+Secondary color:
+
+Light blue (#66CCFF) - can convey clarity, freshness, and reliability.
+Hover color:
+
+Orange (#FFA500) - can convey energy and excitement, and can be used to draw attention to specific elements on the page.
+Different areas:
+
+Background color: Light grey (#F6F6F6) - can create a clean and minimalistic look and provide a neutral background for the content.
+Header color: White (#FFFFFF) - can provide contrast against the background and make the content easier to read.
+Call-to-action buttons: Green (#00CC66) - can convey a sense of growth and success, and can be used to encourage users to take action.
+Remember, color selection ultimately depends on the specific needs and preferences of your business and target audience. This is just one example of a color scheme that could work well for an email generating 
