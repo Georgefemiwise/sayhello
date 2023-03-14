@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Input</title>
+		<link rel="stylesheet" href="./style.css">
+	</head>
+
+	<body>
+
+		<form action="../generator.php" method="post">
+			<h1>Form details</h1>
+			<p>please enter the school information below</p>
+			<div class="control">
+				<label for="school">school</label>
+				<select name="school" id="school">
+					<option value="1">TTU</option>
+					<option value="2">UMAT</option>
+				</select>
+			</div>
+
+			<div class="control">
+				<label for="program">program</label>
+				<input type="text" name="program" id="program">
+			</div>
+
+
+			<div class="control">
+				<label for="year">year</label>
+				<input type="number" name="year" id="year">
+			</div>
+
+			<div class="control">
+				<label for="numInClass">number in class</label>
+				<input type="text" name="numInClass" id="numInClass">
+			</div>
+
+			<div class="control">
+				<input type="submit" value="Submit" class="btn">
+			</div>
+
+		</form>
+	</body>
+
+</html>

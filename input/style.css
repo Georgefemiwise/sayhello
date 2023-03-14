@@ -1,0 +1,26 @@
+body{
+	display: grid;
+	place-items: center;
+	height: 80vh;
+	background-color: aliceblue;
+}
+
+form{
+	border: solid 1px;
+	padding: 2em;
+	border-radius: 10px;
+}
+
+.control label{
+	display: block;
+	text-transform: capitalize;
+}
+input{
+	width: 100%;
+	margin-top: .5em;
+}
+.btn{
+	background-color: coral;
+	padding: .5em;
+	color: whitesmoke;
+}
