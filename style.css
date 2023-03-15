@@ -1,0 +1,37 @@
+	body {
+		background-color: rgb(248, 246, 243);
+		
+	}
+
+	.container {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1em;
+		padding: 3em;
+	}
+
+	.card {
+		/* width: 2em; */
+		height: 10em;
+		border: solid 1px orangered;
+		padding: 1em;
+	}
+
+	.card .title {
+		text-transform: capitalize;
+		font-size: x-large;
+		font-weight: bold;
+		color: #444;
+	}
+
+.content{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	gap: 1em;
+}
+.sch{
+background-color: #cbe3cd;
+text-align: center;
+padding: 15px;
+border-radius: 5px;
+}

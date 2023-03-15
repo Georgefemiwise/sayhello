@@ -24,7 +24,8 @@ function getSchool($conn, $school)
 
 
 // generate email addresses and save to database
-for ($i = 1; $i <= $num_in_class; $i++) {
+for ($i = 1; $i <= $num_in_class; $i++) 
+{
  $index       = sprintf('%03d', $i);
  $db_school   = getSchool($conn, $school);
  $address     = $program . $year . $index . '@' . $db_school . '.edu.gh';
