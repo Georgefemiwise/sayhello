@@ -1,0 +1,27 @@
+$primary:#4b0082;
+
+
+* {
+	margin: 0;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	background: $primary;
+	align-items: center;
+	background-color: #4b0082;
+	padding: 1em;
+	& ul {
+		list-style-type: none;
+		display: flex;
+		gap: 1em;
+	}
+	& .navlinks li a {
+		text-transform: capitalize;
+		color: #fff;
+		text-decoration: none;
+	}
+}
+	
+body{
+}

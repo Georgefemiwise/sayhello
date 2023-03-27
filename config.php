@@ -4,7 +4,7 @@
 $servername = 'localhost';
 $username   = 'root';
 $password   = '';
-$database   = 'emailgenics';
+$database   = 'Emailgenics';
 
 // establish a connection
 function db_config()
